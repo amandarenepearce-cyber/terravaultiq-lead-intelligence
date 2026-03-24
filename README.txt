@@ -1,0 +1,1 @@
+Lead Intelligence Engine v3\n\nPatched version with tighter niche filtering.\nRun with:\npython -m streamlit run app_gui.py\n
