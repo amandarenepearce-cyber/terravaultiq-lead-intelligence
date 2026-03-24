@@ -1,10 +1,10 @@
 import pandas as pd
 import streamlit as st
 from datetime import datetime
-from modules.discovery import discover_businesses, search_public_topics, expand_topic_queries
-from modules.enrichment import enrich_rows
-from modules.scoring import score_rows
-from modules.packager import build_package_summary, normalize_zip_list
+from discovery import discover_businesses, search_public_topics, expand_topic_queries
+from enrichment import enrich_rows
+from scoring import score_rows
+from packager import build_package_summary, normalize_zip_list
 
 st.set_page_config(page_title='Lead Intelligence Engine v3', page_icon='📈', layout='wide')
 if 'results_df' not in st.session_state:
